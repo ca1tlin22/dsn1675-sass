@@ -19,7 +19,7 @@ html{
 }
 
 .masthead{
-  background-color: #BDE2D0;
+  background-color: #026565;
 }
 
 .nav li{
@@ -31,7 +31,7 @@ html{
   display: inline-block;
   float: left;
   text-decoration: none;
-  color: #f0675f;
+  color: #E9DCCA;
 }
 
 .nav a:hover{
@@ -46,21 +46,29 @@ html{
 }
 
 .tour a{
-  padding: .25em 1.5em .25em 1.5em;
-  background-color: #f0675f;
-  border-radius: 15px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 .sign-up{
-  background-color: #BDE2D0;
+  background-color: #026565;
   color: #fff;
-  padding: 2em;
+  padding: 1em;
+}
+
+.signup{
+  text-decoration: none;
+  color: #fff;
+  padding: .5em;
 }
 
 footer{
-  background-color: #f0675f;
+  background-color: #023749;
+  color: #fff;
+  padding: 1em;
+}
+
+footer a{
   color: #fff;
   padding: 1em;
 }
