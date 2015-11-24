@@ -59,13 +59,13 @@ h2{
   position: static;
 }
 
-.packages{
-  background-color: #031535;
+.second{
+  background-color: #026565;
   color: #fff;
 }
 
 footer{
-  background-color: #026565;
+  background-color: #031535;
   color: #fff;
 }
 
@@ -75,17 +75,14 @@ footer{
     text-align: right;
   }
 
-}
+  .logo {
+    max-width: 256px;
+    margin: 0 auto;
+  }
 
-.logo{
-  max-width: 256px;
-  margin: 0 auto;
-}
-
-@media only screen and (min-width: 50em) {
-
-  .logo{
-    margin: 0;
+  .social{
+    max-width: 256px;
+    margin: 0 auto;
   }
 
 }
