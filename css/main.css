@@ -32,6 +32,41 @@ html{
 
 .nav a{
     color: #e9dcca;
+    text-decoration: none;
+}
+
+.nav a:hover{
+  color: #ef6f65;
+}
+
+.masthead{
+  background-color: #026565;
+  padding: 0;
+}
+
+h2{
+  color: #ef6f65;
+}
+
+.bubble-text{
+  position: absolute;
+  text-shadow: 1px 1px 5px #e9dcca;
+  font-size: 1.5rem;
+  color: #031535;
+}
+
+.alp{
+  position: static;
+}
+
+.packages{
+  background-color: #031535;
+  color: #fff;
+}
+
+footer{
+  background-color: #026565;
+  color: #fff;
 }
 
 @media only screen and (min-width: 50em) {
@@ -53,9 +88,4 @@ html{
     margin: 0;
   }
 
-}
-
-.masthead{
-  background-color: #026565;
-  padding: 0em;
 }
