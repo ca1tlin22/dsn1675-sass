@@ -18,49 +18,75 @@ html{
   box-sizing: inherit;
 }
 
-.masthead{
-  background-color: #BDE2D0;
-}
-
-.nav li{
-  float: left;
-}
-
-.nav a {
-  padding: .25em;
+.list-group__item{
   display: inline-block;
-  float: left;
-  text-decoration: none;
-  color: #f0675f;
+  border: solid #e9dcca;
+  border-width: 0 2px 0 2px;
+  padding: .25em;
+  margin: 0;
+}
+
+.nav{
+  text-align: center;
+}
+
+.nav a{
+    color: #e9dcca;
+    text-decoration: none;
 }
 
 .nav a:hover{
-  padding: .25em;
-  background-color: #fff;
-  border-radius: 5px;
-  color: #f0675f;
+  color: #ef6f65;
 }
 
-.speech{
+.masthead{
+  background-color: #026565;
+  padding: 0;
+}
+
+h2{
+  color: #ef6f65;
+}
+
+.bubble-text{
   position: absolute;
+  text-shadow: 1px 1px 5px #e9dcca;
+  font-size: 1.5rem;
+  color: #031535;
 }
 
-.tour a{
-  padding: .25em 1.5em .25em 1.5em;
-  background-color: #f0675f;
-  border-radius: 15px;
-  text-decoration: none;
+.alp{
+  position: static;
+}
+
+.teal{
+  background-color: #026565;
   color: #fff;
 }
 
-.sign-up{
-  background-color: #BDE2D0;
-  color: #fff;
-  padding: 2em;
+.beige{
+  background-color: #e9dcca;
 }
 
 footer{
-  background-color: #f0675f;
+  background-color: #031535;
   color: #fff;
-  padding: 1em;
+}
+
+@media only screen and (min-width: 50em) {
+
+  .nav {
+    text-align: right;
+  }
+
+  .logo {
+    max-width: 256px;
+    margin: 0 auto;
+  }
+
+  .social{
+    max-width: 256px;
+    margin: 0 auto;
+  }
+
 }
