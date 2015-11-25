@@ -59,9 +59,13 @@ h2{
   position: static;
 }
 
-.second{
+.teal{
   background-color: #026565;
   color: #fff;
+}
+
+.beige{
+  background-color: #e9dcca;
 }
 
 footer{
