@@ -23,6 +23,11 @@ html{
   max-width: 900px;
 }
 
+.social{
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 .list-group__item{
   display: inline-block;
   border: solid #e9dcca;
@@ -58,6 +63,8 @@ h2{
   text-shadow: 1px 1px 5px #e9dcca;
   font-size: 1.5rem;
   color: #031535;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .alp{
@@ -137,8 +144,11 @@ input, textarea {
   }
 
   .social{
-    max-width: 256px;
     margin: 0 auto;
+  }
+
+  .teal{
+    padding-bottom: 3em;
   }
 
 }
