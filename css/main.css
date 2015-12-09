@@ -87,6 +87,7 @@ h2{
 footer{
   background-color: #031535;
   color: #fff;
+  padding: 0;
 }
 
 .skip-links{
@@ -130,6 +131,11 @@ button{
 input, textarea {
   border: 1px solid #ccc;
   padding: 0.3em;
+}
+
+@media only screen and (min-width: 37em) {
+
+
 }
 
 @media only screen and (min-width: 50em) {
